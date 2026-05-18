@@ -1,5 +1,0 @@
-Dense vector backend unavailable: Unable to load dense model 'sentence-transformers/all-MiniLM-L6-v2' with local files only: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
-Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
-Falling back to local vector retrieval for this run.
- * Serving Flask app 'app'
- * Debug mode: off
