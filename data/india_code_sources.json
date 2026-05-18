@@ -1,0 +1,183 @@
+{
+  "Bharatiya Nyaya Sanhita, 2023": {
+    "source": "India Code",
+    "source_type": "official_statute",
+    "url": "https://www.indiacode.nic.in/handle/123456789/20062",
+    "sections_used": ["78", "351", "352", "356"],
+    "used_for_categories": [
+      "Repeated unwanted calls / harassment / mental harassment"
+    ]
+  },
+  "Information Technology Act, 2000": {
+    "source": "India Code",
+    "source_type": "official_statute",
+    "url": "https://www.indiacode.nic.in/handle/123456789/15442",
+    "sections_used": ["66E", "67", "67A"],
+    "used_for_categories": [
+      "Repeated unwanted calls / harassment / mental harassment",
+      "Privacy, image rights, and copyright"
+    ]
+  },
+  "Indian Contract Act, 1872": {
+    "source": "India Code",
+    "source_type": "official_statute",
+    "url": "https://www.indiacode.nic.in/handle/123456789/2187?locale=en",
+    "sections_used": ["10", "14", "23", "73", "74"],
+    "used_for_categories": [
+      "Contract law",
+      "Landlord and tenant law"
+    ]
+  },
+  "Consumer Protection Act, 2019": {
+    "source": "India Code",
+    "source_type": "official_statute",
+    "url": "https://www.indiacode.nic.in/handle/123456789/15256",
+    "sections_used": [
+      "consumer complaint",
+      "deficiency in service",
+      "product liability",
+      "unfair trade practice"
+    ],
+    "used_for_categories": [
+      "Consumer protection",
+      "Insurance disclosure and policyholder rights"
+    ]
+  },
+  "Insurance Act, 1938": {
+    "source": "India Code",
+    "source_type": "official_statute",
+    "url": "https://www.indiacode.nic.in/handle/123456789/2304?locale=en",
+    "sections_used": [
+      "insurance contract",
+      "insurer obligations",
+      "policy terms"
+    ],
+    "used_for_categories": [
+      "Insurance disclosure and policyholder rights"
+    ]
+  },
+  "IRDAI Policyholder Protection Regulations": {
+    "source": "IRDAI",
+    "source_type": "official_regulator",
+    "url": "https://irdai.gov.in/",
+    "sections_used": [
+      "proposal form",
+      "policyholder protection",
+      "claim servicing",
+      "grievance redressal"
+    ],
+    "used_for_categories": [
+      "Insurance disclosure and policyholder rights"
+    ]
+  },
+  "Model Tenancy Act, 2021": {
+    "source": "Press Information Bureau",
+    "source_type": "official_government_reference",
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1779681",
+    "sections_used": [
+      "tenancy agreement",
+      "rent revision",
+      "rent authority",
+      "landlord and tenant obligations"
+    ],
+    "used_for_categories": [
+      "Landlord and tenant law"
+    ]
+  },
+  "Copyright Act, 1957": {
+    "source": "India Code",
+    "source_type": "official_statute",
+    "url": "https://www.indiacode.nic.in/handle/123456789/1367?view_type=browse",
+    "sections_used": [
+      "13",
+      "14",
+      "51",
+      "55",
+      "63"
+    ],
+    "used_for_categories": [
+      "Privacy, image rights, and copyright"
+    ]
+  },
+  "Bharatiya Nagarik Suraksha Sanhita, 2023": {
+    "source": "India Code",
+    "source_type": "official_statute",
+    "url": "https://www.indiacode.nic.in/handle/123456789/21615",
+    "sections_used": [
+      "FIR",
+      "arrest procedure",
+      "bail procedure",
+      "criminal court process"
+    ],
+    "used_for_categories": [
+      "Police, arrest, and bail"
+    ]
+  },
+  "Transfer of Property Act, 1882": {
+    "source": "India Code",
+    "source_type": "official_statute",
+    "url": "https://www.indiacode.nic.in/handle/123456789/2338",
+    "sections_used": [
+      "transfer of property",
+      "lease",
+      "mortgage",
+      "immovable property"
+    ],
+    "used_for_categories": [
+      "Property and land acquisition"
+    ]
+  },
+  "Registration Act, 1908": {
+    "source": "India Code",
+    "source_type": "official_statute",
+    "url": "https://www.indiacode.nic.in/handle/123456789/2190?locale=en",
+    "sections_used": [
+      "registration of documents",
+      "registered property instruments"
+    ],
+    "used_for_categories": [
+      "Property and land acquisition"
+    ]
+  },
+  "Specific Relief Act, 1963": {
+    "source": "India Code",
+    "source_type": "official_statute",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+    "sections_used": [
+      "injunction",
+      "specific performance",
+      "recovery of possession"
+    ],
+    "used_for_categories": [
+      "Contract law",
+      "Property and land acquisition"
+    ]
+  },
+  "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013": {
+    "source": "India Code",
+    "source_type": "official_statute",
+    "url": "https://www.indiacode.nic.in/handle/123456789/2121",
+    "sections_used": [
+      "land acquisition",
+      "compensation",
+      "rehabilitation",
+      "resettlement"
+    ],
+    "used_for_categories": [
+      "Property and land acquisition"
+    ]
+  },
+  "India Code Central Acts Search": {
+    "source": "India Code",
+    "source_type": "official_statute_portal",
+    "url": "https://www.indiacode.nic.in/",
+    "sections_used": [
+      "general legal research",
+      "central acts",
+      "statutory references"
+    ],
+    "used_for_categories": [
+      "General legal research"
+    ]
+  }
+}

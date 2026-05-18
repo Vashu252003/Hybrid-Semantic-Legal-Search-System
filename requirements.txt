@@ -1,0 +1,6 @@
+elasticsearch
+faiss-cpu
+flask
+numpy
+pypdf
+sentence-transformers

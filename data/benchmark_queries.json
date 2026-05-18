@@ -1,0 +1,105 @@
+[
+  {
+    "query": "valid agreement offer acceptance consideration free consent lawful object contract",
+    "relevance": {
+      "IN-LAW-INDIAN-CONTRACT-ACT-1872-SEC-10": 3,
+      "IN-LAW-INDIAN-CONTRACT-ACT-1872-SEC-14": 2,
+      "IN-LAW-INDIAN-CONTRACT-ACT-1872-SEC-23": 2,
+      "IN-LAW-INDIAN-CONTRACT-ACT-1872-SOURCE": 1
+    }
+  },
+  {
+    "query": "breach of contract compensation loss damage liquidated damages penalty",
+    "relevance": {
+      "IN-LAW-INDIAN-CONTRACT-ACT-1872-SEC-73": 3,
+      "IN-LAW-INDIAN-CONTRACT-ACT-1872-SEC-74": 3,
+      "IN-LAW-INDIAN-CONTRACT-ACT-1872-SOURCE": 1
+    }
+  },
+  {
+    "query": "consent coercion undue influence fraud misrepresentation mistake agreement",
+    "relevance": {
+      "IN-LAW-INDIAN-CONTRACT-ACT-1872-SEC-14": 3,
+      "IN-LAW-INDIAN-CONTRACT-ACT-1872-SEC-10": 2,
+      "IN-LAW-INDIAN-CONTRACT-ACT-1872-SOURCE": 1
+    }
+  },
+  {
+    "query": "repeated unwanted calls stalking mental harassment intimidation threats insult defamation",
+    "relevance": {
+      "IN-LAW-BHARATIYA-NYAYA-SANHITA-2023-SEC-78": 3,
+      "IN-LAW-BHARATIYA-NYAYA-SANHITA-2023-SEC-351": 3,
+      "IN-LAW-BHARATIYA-NYAYA-SANHITA-2023-SEC-352": 2,
+      "IN-LAW-BHARATIYA-NYAYA-SANHITA-2023-SEC-356": 2,
+      "IN-LAW-BHARATIYA-NYAYA-SANHITA-2023-SOURCE": 1
+    }
+  },
+  {
+    "query": "criminal intimidation threat reputation property family force someone to act",
+    "relevance": {
+      "IN-LAW-BHARATIYA-NYAYA-SANHITA-2023-SEC-351": 3,
+      "IN-LAW-BHARATIYA-NYAYA-SANHITA-2023-SOURCE": 1
+    }
+  },
+  {
+    "query": "defamation false statement reputation harm insult peace",
+    "relevance": {
+      "IN-LAW-BHARATIYA-NYAYA-SANHITA-2023-SEC-356": 3,
+      "IN-LAW-BHARATIYA-NYAYA-SANHITA-2023-SEC-352": 2,
+      "IN-LAW-BHARATIYA-NYAYA-SANHITA-2023-SOURCE": 1
+    }
+  },
+  {
+    "query": "privacy private image video captured published transmitted without consent electronic",
+    "relevance": {
+      "IN-LAW-INFORMATION-TECHNOLOGY-ACT-2000-SEC-66E": 3,
+      "IN-LAW-INFORMATION-TECHNOLOGY-ACT-2000-SOURCE": 1
+    }
+  },
+  {
+    "query": "obscene sexually explicit content sent published transmitted online electronic",
+    "relevance": {
+      "IN-LAW-INFORMATION-TECHNOLOGY-ACT-2000-SEC-67": 3,
+      "IN-LAW-INFORMATION-TECHNOLOGY-ACT-2000-SEC-67A": 3,
+      "IN-LAW-INFORMATION-TECHNOLOGY-ACT-2000-SOURCE": 1
+    }
+  },
+  {
+    "query": "copyright photograph image work infringement civil remedies offences",
+    "relevance": {
+      "IN-LAW-COPYRIGHT-ACT-1957-SEC-13": 2,
+      "IN-LAW-COPYRIGHT-ACT-1957-SEC-14": 2,
+      "IN-LAW-COPYRIGHT-ACT-1957-SEC-51": 3,
+      "IN-LAW-COPYRIGHT-ACT-1957-SEC-55": 2,
+      "IN-LAW-COPYRIGHT-ACT-1957-SEC-63": 2,
+      "IN-LAW-COPYRIGHT-ACT-1957-SOURCE": 1
+    }
+  },
+  {
+    "query": "consumer complaint deficiency in service product liability unfair trade practice",
+    "relevance": {
+      "IN-LAW-CONSUMER-PROTECTION-ACT-2019-SOURCE": 3,
+      "HF-INDIAN-JUDGMENT-0019-0-JONEW-JUDIS-16552": 1,
+      "HF-INDIAN-JUDGMENT-0097-12100-2002-JONEW-JUDIS-26460": 1,
+      "HF-INDIAN-JUDGMENT-0116-12578-2002-JONEW-JUDIS-26464": 1
+    }
+  },
+  {
+    "query": "insurance policy proposal form insurer obligation claim servicing policyholder grievance",
+    "relevance": {
+      "IN-LAW-INSURANCE-ACT-1938-SOURCE": 3,
+      "IN-LAW-IRDAI-POLICYHOLDER-PROTECTION-REGULATIONS-SOURCE": 3,
+      "HF-INDIAN-JUDGMENT-0019-0-JONEW-JUDIS-16552": 1,
+      "HF-INDIAN-JUDGMENT-0087-11835-2006-JONEW-JUDIS-31539": 1,
+      "HF-INDIAN-JUDGMENT-0183-14353-2004-JONEW-JUDIS-27989": 1
+    }
+  },
+  {
+    "query": "land acquisition compensation rehabilitation resettlement property transfer registration documents",
+    "relevance": {
+      "IN-LAW-RIGHT-TO-FAIR-COMPENSATION-AND-TRANSPARENCY-IN-LAND-ACQUISITION-REHABILITATION-A-SOURCE": 3,
+      "IN-LAW-TRANSFER-OF-PROPERTY-ACT-1882-SOURCE": 2,
+      "IN-LAW-REGISTRATION-ACT-1908-SOURCE": 2
+    }
+  }
+]

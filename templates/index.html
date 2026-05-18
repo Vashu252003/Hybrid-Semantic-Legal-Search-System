@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Legal Query</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">
+        <span class="brand-mark">LQ</span>
+        <span>
+          <strong>Legal Query</strong>
+          <small>Your Legal Questions, Our Guidance</small>
+        </span>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero" id="ask">
+        <div class="hero-copy">
+          <p class="eyebrow">AI Powered Legal Search</p>
+          <h1>Ask Your Legal Query. Get Clarity.</h1>
+          <p class="intro">
+            Type your situation in simple words. The system converts it into a legal query and retrieves related cases, laws, and references.
+          </p>
+
+          <form method="post" class="hero-search">
+            <label class="sr-only" for="query">Describe your legal situation</label>
+            <textarea
+              id="query"
+              name="query"
+              placeholder="Type your legal query here..."
+              autocomplete="off"
+            >{{ query }}</textarea>
+            <button type="submit">Ask Now</button>
+
+            <div class="controls">
+              <label>
+                Results
+                <select name="top_k">
+                  {% for value in [3, 5, 8] %}
+                    <option value="{{ value }}" {% if top_k == value %}selected{% endif %}>Top {{ value }}</option>
+                  {% endfor %}
+                </select>
+              </label>
+
+              <label>
+                Fusion
+                <select name="fusion">
+                  <option value="rrf" {% if fusion == "rrf" %}selected{% endif %}>RRF</option>
+                  <option value="weighted" {% if fusion == "weighted" %}selected{% endif %}>Weighted</option>
+                </select>
+              </label>
+
+              <label>
+                Half-life
+                <input name="temporal_half_life_days" type="number" min="1" value="{{ temporal_half_life_days }}">
+              </label>
+
+              <label>
+                Boost
+                <input name="temporal_boost" type="number" min="0" max="1" step="0.001" value="{{ temporal_boost }}">
+              </label>
+
+              <label class="check-row">
+                <input name="use_temporal" type="checkbox" {% if use_temporal %}checked{% endif %}>
+                Temporal
+              </label>
+            </div>
+          </form>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <img src="{{ url_for('static', filename='assets/legal-hero.png') }}" alt="">
+        </div>
+      </section>
+
+      <section class="analysis-panel" id="how">
+        <div>
+          <h2>Legal Issue Category</h2>
+          <div class="tag-row">
+            {% for area in conversion.legal_areas %}
+              <span>{{ area }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="meaning-block">
+          <h2>Simple Legal Meaning</h2>
+          <p>{{ conversion.simple_legal_meaning }}</p>
+        </div>
+      </section>
+
+      <section class="results-layout">
+        {% set groups = [
+          ("Related Laws", results.laws, "laws"),
+          ("Related Court Judgments", results.judgments, "judgments")
+        ] %}
+        {% for title, group, variant in groups %}
+          <div class="results-column {{ variant }}">
+            <h2>{{ title }}</h2>
+            {% if group %}
+              {% for item in group %}
+                <article class="result-card">
+                  <div class="result-head">
+                    <span class="rank">#{{ item.rank }}</span>
+                    <span class="doc-type">{{ item.document_type }}</span>
+                    <span class="score">Score {{ item.score }}</span>
+                  </div>
+                  <h3>{{ item.title }}</h3>
+                  <p class="case-meta">{{ item.court }} | {{ item.date }} | {{ item.id }}</p>
+                  <p>{{ item.text }}</p>
+                  {% if item.breakdown %}
+                    <details>
+                      <summary>Score breakdown</summary>
+                      <dl>
+                        {% for key, value in item.breakdown.items() %}
+                          <div>
+                            <dt>{{ key.replace("_", " ") }}</dt>
+                            <dd>{{ value }}</dd>
+                          </div>
+                        {% endfor %}
+                      </dl>
+                    </details>
+                  {% endif %}
+                </article>
+              {% endfor %}
+            {% else %}
+              <p class="empty">No matching legal documents found.</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </section>
+    </main>
+  </body>
+</html>
